@@ -11,7 +11,7 @@ n=int(input("Enter you choice:-"))
 if(n==1):
     print("\nTHE DATA:-","\n",df1)
     #USING STATSMODEL LIBRARY FUNCTIONS'
-    model=ols('score~company',data=df).fit()
+    model=ols('score ~ company',data=df).fit()
     anov_res=sm.stats.anova_lm(model)
     print("ONE WAY ANOVA Result(using library):-","\n",anov_res)
 elif(n==2):
