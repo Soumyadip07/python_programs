@@ -3,7 +3,7 @@ import pandas as pd
 import statsmodels.api as sm
 from statsmodels.formula.api import ols
 
-df1=pd.read_csv(r'C:\Users\soumy\Desktop\501-prgs\machine.csv')
+df1=pd.read_csv('https://raw.githubusercontent.com/Soumyadip07/python_datasets/main/machine.csv')
 print("ONE-WAY ANOVA calculation Methods:-","\n1.By using library functions","\n2.By manually executing every steps of univariate ANOVA")
 n=int(input("Enter you choice:-"))
 
